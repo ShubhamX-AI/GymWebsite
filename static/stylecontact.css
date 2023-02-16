@@ -1,0 +1,34 @@
+#heading{
+    margin: 26px;
+    text-align: center;
+    font-size: 57px;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 93px;
+}
+.myForminput{
+    margin: 10px;
+    padding: 19px;
+    width: 247px;
+    text-align: center;
+}
+.btn{
+    margin-top: 26px;
+    padding: 9px;
+    color: brown;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: black;
+    color: gold;
+}
+
+#formdiv{
+    height: 72vh;
+}

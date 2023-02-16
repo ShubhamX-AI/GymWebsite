@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    background-color: black;
+    padding: 24px;
+}
+
+#logo{
+    color: white;
+}
+#logo img{
+    height: 39px;
+}
+
+#navbar ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 35px
+}
+
+#navbar li a:hover{
+    color: rgb(235, 174, 101);
+    font-size: 37px;
+}
+
+#goles h1{
+    text-align: center;
+    margin-top: 31px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.goles{
+    border: 2px solid red;
+    display: inline-block;
+    width: 542px;
+    margin: 26px;
+    padding: 18px;
+    text-align: center;
+}
+
+#sponsers h1{
+    text-align: center;
+    margin-top: 31px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.sponserlogo{
+    display: flex;
+    margin: 51px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
